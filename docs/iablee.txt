@@ -1,0 +1,28 @@
+iablee is an innovative company dedicated to developing artificial intelligence-powered software.
+
+We specialize in creating advanced technological solutions that transform the way businesses operate
+and connect with their customers through intelligent automation and AI-driven insights.
+
+Our focus on artificial intelligence allows us to offer products and services that not only optimize
+processes but also drive efficiency and innovation across various industries, with a particular emphasis
+on intelligent automation and business process optimization.
+
+With a team of experts passionate about technology, iablee is committed to leading the way 
+toward a more intelligent and automated future, where businesses can thrive through AI-powered solutions.
+
+Founded by Gabriel Vega, a senior developer with extensive experience in banking software and AI systems,
+iablee brings together a team of experts in artificial intelligence, software development, and business process optimization.
+
+We have extensive experience developing technology platforms integrated with artificial intelligence. 
+From Backend to Frontend, we offer customized solutions that adapt to our clients' needs, focusing on
+intelligent automation and process optimization.
+
+We have developed web and mobile applications and backend systems for startups and companies that want
+to leverage the power of AI and automation in their operations.
+
+We primarily work with modern technologies including Angular, NgRx, Ionic, Bootstrap, Tailwind CSS, NodeJS, NestJS, 
+and various AI/ML frameworks to deliver cutting-edge solutions.
+
+Our strength lies in our deep expertise in AI development and technological innovation, 
+launching secure applications that handle millions of users while maintaining the highest standards
+of performance and reliability.
