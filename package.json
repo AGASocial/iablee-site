@@ -1,0 +1,14 @@
+{
+  "name": "agasocial-website",
+  "version": "1.0.0",
+  "description": "AGA Social website",
+  "scripts": {
+    "build:css": "tailwindcss -i ./assets/css/main.css -o ./assets/css/style.css --watch"
+  },
+  "dependencies": {
+    "@tailwindcss/typography": "^0.5.10",
+    "autoprefixer": "^10.4.16",
+    "postcss": "^8.4.31",
+    "tailwindcss": "^3.3.5"
+  }
+}

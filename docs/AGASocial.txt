@@ -1,0 +1,25 @@
+AGA Social is an innovative company dedicated to developing artificial intelligence-powered software.
+
+We specialize in creating advanced technological solutions that transform the way businesses operate
+and connect with their customers.
+
+Our focus on artificial intelligence allows us to offer products and services that not only optimize
+processes but also drive efficiency and innovation across various industries.
+
+With a team of experts passionate about technology, AGA Social is committed to leading the way 
+toward a more intelligent and connected future.
+
+Founded by Alexander Ramírez, a Computer Engineer who graduated in 1997 with a master's degree in 
+Random Models, and Gabriel Vega, a senior developer with extensive experience in banking software.
+
+We have extensive experience developing technology platforms integrated with artificial intelligence. 
+From Backend to Frontend, we offer customized solutions that adapt to our clients' needs.
+
+We have developed web and mobile applications and backend systems for startups and companies that want
+the best in technology.
+
+We primarily work with Angular, NgRx, Ionic, Bootstrap, Tailwind CSS, NodeJS, NestJS, 
+among other technologies.
+
+Our strength lies in over 40 years of combined experience in development and technological innovation, 
+launching secure applications that handle millions of users.

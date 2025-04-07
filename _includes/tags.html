@@ -1,0 +1,125 @@
+<!-- SEO Tags -->
+{% if page.title %}
+    <title>{{ page.title }} | {{ site.title }}</title>
+    <meta property="og:title" content="{{ page.title }} | {{ site.title }}" />
+    <meta name="twitter:title" content="{{ page.title }} | {{ site.title }}" />
+{% else %}
+    <title>{{ site.title }}</title>
+    <meta property="og:title" content="{{ site.title }}" />
+    <meta name="twitter:title" content="{{ site.title }}" />
+{% endif %}
+
+{% if page.description %}
+    <meta name="description" content="{{ page.description }}" />
+    <meta property="og:description" content="{{ page.description }}" />
+    <meta name="twitter:description" content="{{ page.description }}" />
+{% else %}
+    <meta name="description" content="{{ site.description }}" />
+    <meta property="og:description" content="{{ site.description }}" />
+    <meta name="twitter:description" content="{{ site.description }}" />
+{% endif %}
+
+<!-- Open Graph / Social Media Tags -->
+<meta property="og:site_name" content="{{ site.title }}" />
+<meta property="og:type" content="{{ page.type }}" />
+<meta property="og:url" content="{{ site.url }}{{ page.url }}" />
+
+<!-- Image Tags for Social Media -->
+{% if page.image %}
+    <meta property="og:image" content="{{ site.url }}{{ page.image }}" />
+    <meta name="twitter:image" content="{{ site.url }}{{ page.image }}" />
+{% elsif site.default_image %}
+    <meta property="og:image" content="{{ site.url }}{{ site.default_image }}" />
+    <meta name="twitter:image" content="{{ site.url }}{{ site.default_image }}" />
+{% endif %}
+
+<!-- Twitter Card Tags -->
+<meta name="twitter:card" content="summary_large_image" />
+{% if site.twitter_username %}
+    <meta name="twitter:site" content="@{{ site.twitter_username }}" />
+{% endif %}
+
+<!-- Canonical URL -->
+<link rel="canonical" href="{{ site.url }}{{ page.url }}" />
+
+<!-- Additional Meta Tags -->
+<meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover" />
+<meta charset="utf-8" />
+<meta name="robots" content="index, follow" />
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+<!-- Language and Locale -->
+<meta property="og:locale" content="{{ site.lang | default: 'en' }}" />
+{% if site.alternate_languages %}
+    {% for lang in site.alternate_languages %}
+        <link rel="alternate" hreflang="{{ lang.code }}" href="{{ site.url }}{{ lang.url }}" />
+    {% endfor %}
+{% endif %}
+
+<!-- Rich Snippets and Structured Data -->
+<script type="application/ld+json">
+{
+    "@context": "https://schema.org",
+    "@type": "Organization",
+    "name": "{{ site.organization.name }}",
+    "legalName": "{{ site.organization.legal_name }}",
+    "url": "{{ site.organization.url }}",
+    "logo": "{{ site.url }}{{ site.organization.logo }}",
+    "foundingDate": "{{ site.organization.founding_date }}",
+    "founders": [
+        {% for founder in site.organization.founders %}
+        {
+            "@type": "Person",
+            "name": "{{ founder.name }}",
+            "jobTitle": "{{ founder.title }}"
+        }{% unless forloop.last %},{% endunless %}
+        {% endfor %}
+    ],
+    "contactPoint": {
+        "@type": "ContactPoint",
+        "email": "{{ site.email }}",
+        "contactType": "customer service"
+    }
+}
+</script>
+
+<!-- Security and Performance -->
+{% if site.external_domains %}
+    {% for domain in site.external_domains %}
+        <link rel="dns-prefetch" href="{{ domain }}" />
+        <link rel="preconnect" href="{{ domain }}" crossorigin />
+    {% endfor %}
+{% endif %}
+
+<!-- Mobile and App Integration -->
+<meta name="apple-mobile-web-app-capable" content="yes" />
+<meta name="apple-mobile-web-app-status-bar-style" content="black" />
+<meta name="theme-color" content="{{ site.theme_color }}" />
+<meta name="application-name" content="{{ site.title }}" />
+<meta name="msapplication-TileColor" content="{{ site.brand_color }}" />
+
+<!-- Cache Control -->
+<meta http-equiv="Cache-Control" content="no-cache, no-store, must-revalidate" />
+<meta http-equiv="Pragma" content="no-cache" />
+<meta http-equiv="Expires" content="0" />
+
+<!-- Content Verification -->
+{% if site.google_site_verification %}
+    <meta name="google-site-verification" content="{{ site.google_site_verification }}" />
+{% endif %}
+{% if site.bing_site_verification %}
+    <meta name="msvalidate.01" content="{{ site.bing_site_verification }}" />
+{% endif %}
+{% if site.pinterest_site_verification %}
+    <meta name="p:domain_verify" content="{{ site.pinterest_site_verification }}" />
+{% endif %}
+
+<!-- Keywords if specified -->
+{% if page.keywords %}
+    <meta name="keywords" content="{{ page.keywords | join: ', ' }}" />
+{% endif %}
+
+<!-- Favicon -->
+<link rel="icon" type="image/png" sizes="32x32" href="{{ site.url }}/assets/images/favicon-32.png">
+<link rel="icon" type="image/png" sizes="16x16" href="{{ site.url }}/assets/images/favicon-16.png">
+<link rel="apple-touch-icon" sizes="180x180" href="{{ site.url }}/assets/images/apple-touch-icon.png">

@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Favicon Generator</title>
+    <style>
+        .download-container {
+            margin: 20px 0;
+        }
+        canvas {
+            margin: 10px;
+            border: 1px solid #ccc;
+            background: white;
+        }
+        .preview {
+            transform: scale(4);
+            transform-origin: left top;
+            margin-bottom: 80px;
+        }
+        .download-link {
+            display: inline-block;
+            padding: 10px 20px;
+            background-color: #0066cc;
+            color: white;
+            text-decoration: none;
+            border-radius: 5px;
+            margin-top: 10px;
+        }
+        .download-link:hover {
+            background-color: #0052a3;
+        }
+    </style>
+</head>
+<body>
+    <div class="download-container">
+        <h3>Favicon (16x16)</h3>
+        <div class="preview">
+            <canvas id="favicon16" width="16" height="16"></canvas>
+        </div>
+        <a id="download16" class="download-link" href="#">Download 16x16</a>
+    </div>
+
+    <div class="download-container">
+        <h3>Favicon (32x32)</h3>
+        <div class="preview">
+            <canvas id="favicon32" width="32" height="32"></canvas>
+        </div>
+        <a id="download32" class="download-link" href="#">Download 32x32</a>
+    </div>
+
+    <div class="download-container">
+        <h3>Apple Touch Icon (180x180)</h3>
+        <canvas id="appleIcon" width="180" height="180"></canvas>
+        <br>
+        <a id="downloadApple" class="download-link" href="#">Download Apple Touch Icon</a>
+    </div>
+
+    <script>
+        function drawFavicon(canvas, size) {
+            const ctx = canvas.getContext('2d');
+            
+            // Clear canvas
+            ctx.clearRect(0, 0, size, size);
+            
+            // Create circular background
+            ctx.beginPath();
+            ctx.arc(size/2, size/2, size/2, 0, Math.PI * 2);
+            ctx.fillStyle = '#0066cc';
+            ctx.fill();
+            
+            // Add text with padding
+            ctx.fillStyle = 'white';
+            ctx.textAlign = 'center';
+            ctx.textBaseline = 'middle';
+            
+            // Adjust font size based on canvas size (smaller than before to add padding)
+            const fontSize = Math.floor(size * 0.4); // Reduced from 0.5 to 0.4 for padding
+            ctx.font = `bold ${fontSize}px Arial`;
+            
+            // Draw text in center
+            ctx.fillText('AGA', size/2, size/2);
+
+            // Optional: Add a subtle white border
+            ctx.strokeStyle = 'white';
+            ctx.lineWidth = size * 0.03;
+            ctx.stroke();
+        }
+
+        function setupDownload(canvasId, downloadId, filename) {
+            const canvas = document.getElementById(canvasId);
+            const downloadLink = document.getElementById(downloadId);
+            
+            // Draw initial favicon
+            drawFavicon(canvas, canvas.width);
+            
+            // Set up download functionality
+            downloadLink.addEventListener('click', function(e) {
+                // Convert canvas to blob
+                canvas.toBlob(function(blob) {
+                    // Create object URL
+                    const url = URL.createObjectURL(blob);
+                    
+                    // Set download attributes
+                    downloadLink.href = url;
+                    downloadLink.download = filename;
+                    
+                    // Clean up object URL after download
+                    setTimeout(() => URL.revokeObjectURL(url), 1000);
+                }, 'image/png');
+            });
+        }
+
+        // Set up downloads for all sizes
+        setupDownload('favicon16', 'download16', 'favicon-16.png');
+        setupDownload('favicon32', 'download32', 'favicon-32.png');
+        setupDownload('appleIcon', 'downloadApple', 'apple-touch-icon.png');
+    </script>
+</body>
+</html>

@@ -1,0 +1,64 @@
+title: iablee
+email: info@iablee.com
+description: >- # 
+  iablee es una plataforma que te permite almacenar información vital y asignar beneficiarios
+  que recibirán acceso a esta información después de tu fallecimiento. Garantiza que tus deseos
+  se cumplan y que la información importante llegue a las personas correctas cuando ya no estés.
+default_image: /assets/images/default-social-image.jpg
+baseurl: ""
+url: "https://iablee.com"
+twitter_username: iablee
+github_username: iablee
+
+# Language settings
+lang: es
+alternate_languages:
+  - code: en
+    url: /en/
+
+# Theme and brand settings
+theme_color: "#0060B6"
+brand_color: "#0060B6"
+
+# External domains for prefetch
+external_domains:
+  - https://fonts.googleapis.com
+  - https://ajax.googleapis.com
+  - https://cdn.jsdelivr.net
+
+# SEO verification tokens (add your tokens when available)
+#google_site_verification: ""
+#bing_site_verification: ""
+#pinterest_site_verification: ""
+
+# Collections
+collections:
+  features:
+    output: true
+    permalink: /features/:path/
+  faqs:
+    output: true
+    permalink: /faq/:path/
+
+# Organization info for Schema.org
+organization:
+  name: iablee
+  legal_name: iablee Inc.
+  url: https://iablee.com
+  logo: /assets/images/logo-w.png
+  founding_date: 2024
+
+plugins:
+  - jekyll-feed
+
+exclude:
+  - .sass-cache/
+  - .jekyll-cache/
+  - gemfiles/
+  - Gemfile
+  - Gemfile.lock
+  - node_modules/
+  - vendor/bundle/
+  - vendor/cache/
+  - vendor/gems/
+  - vendor/ruby/  
