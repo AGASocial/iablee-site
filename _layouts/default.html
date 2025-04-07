@@ -1,89 +1,107 @@
 <!DOCTYPE html>
-<html lang="{{ site.lang | default: "es-ES" }}" class="h-full scroll-smooth">
-  <head>
-    {% include gtm.html %}
-    {% include analytics.html %}
-    {% include tags.html %}
-    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
-    <!-- add tailwind css -->
-    <link rel="stylesheet" href="https://unpkg.com/tailwindcss@^2/dist/tailwind.min.css">
-    <link rel="stylesheet" href="{{ "/assets/css/main.css" | relative_url }}">
-    <link rel="icon" type="image/jpeg" href="{{ "/assets/images/favicon.jpeg" | relative_url }}">
-    <script defer src="https://unpkg.com/alpinejs@3.x.x/dist/cdn.min.js"></script>
-  </head>
-  <body class="h-full flex flex-col bg-gray-50 font-sans antialiased" x-data="{ isOpen: false }">
-    {% include consent-banner.html %}
-    <header class="fixed w-full bg-white shadow-sm z-50">
-      <div class="container mx-auto px-4">
-        <div class="flex items-center justify-between h-16">
-          <h1 class="text-2xl font-bold flex items-center">
-            <img src="/assets/images/iablee-logo.svg" alt="iablee" class="h-8 mr-2">
-            <a href="{{ "/" | relative_url }}" class="text-gray-900 hover:text-blue-600 transition duration-300">iablee</a>
-          </h1>
-          
-          <!-- Mobile menu button -->
-          <button @click="isOpen = !isOpen" type="button" class="md:hidden inline-flex items-center justify-center p-2 rounded-md text-gray-600 hover:text-gray-900 hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-inset focus:ring-blue-500" aria-controls="mobile-menu" aria-expanded="false">
-            <span class="sr-only">Abrir menú principal</span>
-            <svg class="h-6 w-6" x-show="!isOpen" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16" />
-            </svg>
-            <svg class="h-6 w-6" x-show="isOpen" fill="none" viewBox="0 0 24 24" stroke="currentColor" style="display: none;">
-              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M6 18L18 6M6 6l12 12" />
-            </svg>
-          </button>
+<html lang="{{ site.lang | default: " es-ES" }}" class="h-full scroll-smooth">
 
-          <!-- Desktop menu -->
-          <nav class="hidden md:flex md:items-center md:space-x-8">
-            <a href="{{ "/" | relative_url }}" class="text-gray-600 hover:text-blue-600 transition duration-300">Inicio</a>
-            <a href="{{ "/" | relative_url }}#funcionalidades" class="text-gray-600 hover:text-blue-600 transition duration-300">Funcionalidades</a>
-            <a href="{{ "/" | relative_url }}#planes" class="text-gray-600 hover:text-blue-600 transition duration-300">Planes</a>
-            <a href="{{ "/" | relative_url }}#contact" class="bg-blue-600 text-white px-4 py-2 rounded-full hover:bg-blue-700 transition duration-300">Contacto</a>
-          </nav>
-        </div>
+<head>
+  {% include gtm.html %}
+  {% include analytics.html %}
+  {% include tags.html %}
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <!-- add tailwind css -->
+  <link rel="stylesheet" href="https://unpkg.com/tailwindcss@^2/dist/tailwind.min.css">
+  <link rel="stylesheet" href="{{ " /assets/css/main.css" | relative_url }}">
+  <link rel="icon" type="image/jpeg" href="{{ " /assets/images/favicon.jpeg" | relative_url }}">
+  <script defer src="https://unpkg.com/alpinejs@3.x.x/dist/cdn.min.js"></script>
+</head>
 
-        <!-- Mobile menu -->
-        <div x-show="isOpen" class="md:hidden" id="mobile-menu" style="display: none;">
-          <div class="px-2 pt-2 pb-3 space-y-1">
-            <a href="{{ "/" | relative_url }}" class="block px-3 py-2 rounded-md text-base font-medium text-gray-600 hover:text-blue-600 hover:bg-gray-100 transition duration-300">Inicio</a>
-            <a href="{{ "/" | relative_url }}#funcionalidades" class="block px-3 py-2 rounded-md text-base font-medium text-gray-600 hover:text-blue-600 hover:bg-gray-100 transition duration-300">Funcionalidades</a>
-            <a href="{{ "/" | relative_url }}#planes" class="block px-3 py-2 rounded-md text-base font-medium text-gray-600 hover:text-blue-600 hover:bg-gray-100 transition duration-300">Planes</a>
-            <a href="{{ "/" | relative_url }}#contact" class="block px-3 py-2 rounded-md text-base font-medium text-gray-600 hover:text-blue-600 hover:bg-gray-100 transition duration-300">Contacto</a>
-          </div>
+<body class="h-full flex flex-col bg-gray-50 font-sans antialiased" x-data="{ isOpen: false }">
+  {% include consent-banner.html %}
+  <header class="fixed w-full bg-white shadow-sm z-50">
+    <div class="container mx-auto px-4">
+      <div class="flex items-center justify-between h-16">
+        <h1 class="text-2xl font-bold flex items-center">
+          <a class="text-gray-900 hover:text-blue-600 transition duration-300"><img
+              src="/assets/images/iablee-logo.jpeg" alt="iablee" class="h-16 mr-2"></a>
+        </h1>
+
+        <!-- Mobile menu button -->
+        <button @click="isOpen = !isOpen" type="button"
+          class="md:hidden inline-flex items-center justify-center p-2 rounded-md text-gray-600 hover:text-gray-900 hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-inset focus:ring-blue-500"
+          aria-controls="mobile-menu" aria-expanded="false">
+          <span class="sr-only">Abrir menú principal</span>
+          <svg class="h-6 w-6" x-show="!isOpen" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16" />
+          </svg>
+          <svg class="h-6 w-6" x-show="isOpen" fill="none" viewBox="0 0 24 24" stroke="currentColor"
+            style="display: none;">
+            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M6 18L18 6M6 6l12 12" />
+          </svg>
+        </button>
+
+        <!-- Desktop menu -->
+        <nav class="hidden md:flex md:items-center md:space-x-8">
+          <a href="{{ " /" | relative_url }}"
+            class="text-gray-600 hover:text-blue-600 transition duration-300">Inicio</a>
+          <a href="{{ " /" | relative_url }}#funcionalidades"
+            class="text-gray-600 hover:text-blue-600 transition duration-300">Funcionalidades</a>
+          <a href="{{ " /" | relative_url }}#planes"
+            class="text-gray-600 hover:text-blue-600 transition duration-300">Planes</a>
+          <a href="{{ " /" | relative_url }}#contact"
+            class="bg-blue-600 text-white px-4 py-2 rounded-full hover:bg-blue-700 transition duration-300">Contacto</a>
+        </nav>
+      </div>
+
+      <!-- Mobile menu -->
+      <div x-show="isOpen" class="md:hidden" id="mobile-menu" style="display: none;">
+        <div class="px-2 pt-2 pb-3 space-y-1">
+          <a href="{{ " /" | relative_url }}"
+            class="block px-3 py-2 rounded-md text-base font-medium text-gray-600 hover:text-blue-600 hover:bg-gray-100 transition duration-300">Inicio</a>
+          <a href="{{ " /" | relative_url }}#funcionalidades"
+            class="block px-3 py-2 rounded-md text-base font-medium text-gray-600 hover:text-blue-600 hover:bg-gray-100 transition duration-300">Funcionalidades</a>
+          <a href="{{ " /" | relative_url }}#planes"
+            class="block px-3 py-2 rounded-md text-base font-medium text-gray-600 hover:text-blue-600 hover:bg-gray-100 transition duration-300">Planes</a>
+          <a href="{{ " /" | relative_url }}#contact"
+            class="block px-3 py-2 rounded-md text-base font-medium text-gray-600 hover:text-blue-600 hover:bg-gray-100 transition duration-300">Contacto</a>
         </div>
       </div>
-    </header>
+    </div>
+  </header>
 
-    <main class="flex-grow pt-16">
-      {{ content }}
-    </main>
+  <main class="flex-grow pt-16">
+    {{ content }}
+  </main>
 
-    <footer class="bg-gray-900 text-white">
-      <div class="container mx-auto px-4 py-12">
-        <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
-          <div>
-            <h3 class="text-lg font-semibold mb-4">iablee</h3>
-            <p class="text-gray-400">Tu solución integral para asegurar que tu legado digital llegue a las personas adecuadas en el momento indicado.</p>
-          </div>
-          <div>
-            <h3 class="text-lg font-semibold mb-4">Contacto</h3>
-            <ul class="text-gray-400 space-y-2">
-              <li>Email: <a href="mailto:info@iablee.com" class="hover:text-blue-400 transition-colors duration-300">info@iablee.com</a></li>
-              <li>Teléfono: +1 (555) 123-4567</li>
-            </ul>
-          </div>
-          <div>
-            <h3 class="text-lg font-semibold mb-4">Enlaces Rápidos</h3>
-            <ul class="text-gray-400 space-y-2">
-              <li><a href="/privacy" class="hover:text-blue-400 transition-colors duration-300">Política de Privacidad</a></li>
-              <li><a href="/terms" class="hover:text-blue-400 transition-colors duration-300">Términos y Condiciones</a></li>
-              <li><a href="/faq" class="hover:text-blue-400 transition-colors duration-300">Preguntas Frecuentes</a></li>
-            </ul>
-          </div>
+  <footer class="bg-gray-900 text-white">
+    <div class="container mx-auto px-4 py-12">
+      <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+        <div>
+          <h3 class="text-lg font-semibold mb-4">iablee</h3>
+          <p class="text-gray-400">Tu solución integral para asegurar que tu legado digital llegue a las personas
+            adecuadas en el momento indicado.</p>
         </div>
-        <div class="mt-8 pt-8 border-t border-gray-800 text-center text-gray-400">
-          <p>&copy; {{ site.time | date: '%Y' }} iablee. Todos los derechos reservados.</p>
+        <div>
+          <h3 class="text-lg font-semibold mb-4">Contacto</h3>
+          <ul class="text-gray-400 space-y-2">
+            <li>Email: <a href="mailto:info@iablee.com"
+                class="hover:text-blue-400 transition-colors duration-300">info@iablee.com</a></li>
+            <li>Teléfono: +1 (555) 123-4567</li>
+          </ul>
+        </div>
+        <div>
+          <h3 class="text-lg font-semibold mb-4">Enlaces Rápidos</h3>
+          <ul class="text-gray-400 space-y-2">
+            <li><a href="/privacy" class="hover:text-blue-400 transition-colors duration-300">Política de Privacidad</a>
+            </li>
+            <li><a href="/terms" class="hover:text-blue-400 transition-colors duration-300">Términos y Condiciones</a>
+            </li>
+            <li><a href="/faq" class="hover:text-blue-400 transition-colors duration-300">Preguntas Frecuentes</a></li>
+          </ul>
         </div>
       </div>
-    </footer>
-  </body>
+      <div class="mt-8 pt-8 border-t border-gray-800 text-center text-gray-400">
+        <p>&copy; {{ site.time | date: '%Y' }} iablee. Todos los derechos reservados.</p>
+      </div>
+    </div>
+  </footer>
+</body>
+
 </html>

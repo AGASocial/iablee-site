@@ -124,48 +124,47 @@ type: website
 </div>
 
 <!-- Planes Section -->
-<div id="planes" class="container mx-auto px-4 py-24">
+<div id="planes" class="container mx-auto px-4 py-24 text-center">
   <div class="text-center mb-16">
     <h2 class="text-3xl md:text-4xl font-bold mb-4">Planes y Precios</h2>
     <p class="text-gray-600 max-w-2xl mx-auto">Elige el plan que mejor se adapte a tus necesidades</p>
   </div>
-  <div class="grid md:grid-cols-3 gap-8 max-w-5xl mx-auto">
+  <div class="grid md:grid-cols-1 gap-8 max-w-5xl mx-auto text-center">
     <!-- Plan Básico -->
-    <div class="bg-white rounded-xl shadow-lg p-8 border-t-4 border-blue-400 flex flex-col">
-      <h3 class="text-2xl font-bold mb-2">Básico</h3>
-      <div class="text-gray-600 mb-4">Para necesidades esenciales</div>
-      <div class="text-4xl font-bold mb-6">TBD<span class="text-lg text-gray-500 font-normal">/mes</span></div>
-      <ul class="space-y-3 mb-8 flex-grow">
-        <li class="flex items-start">
+    <div class="bg-white rounded-xl shadow-lg p-8 border-t-4 border-blue-400 flex flex-col max-w-screen-md mx-auto">
+      <h3 class="text-2xl font-bold mb-2 text-center">Básico</h3>
+      <div class="text-gray-600 mb-4 text-center">Para necesidades esenciales</div>
+      <div class="text-4xl font-bold mb-6 text-center">TBD<span class="text-lg text-gray-500 font-normal">/mes</span></div>
+      <ul class="space-y-3 mb-8 flex-grow text-center">
+        <li class="flex items-start justify-center">
           <svg class="w-5 h-5 text-green-500 mr-2 mt-0.5" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"></path></svg>
           <span>5GB de almacenamiento</span>
         </li>
-        <li class="flex items-start">
+        <li class="flex items-start justify-center">
           <svg class="w-5 h-5 text-green-500 mr-2 mt-0.5" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"></path></svg>
           <span>Hasta 3 beneficiarios</span>
         </li>
-        <li class="flex items-start">
+        <li class="flex items-start justify-center">
           <svg class="w-5 h-5 text-green-500 mr-2 mt-0.5" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"></path></svg>
           <span>Documentos y textos</span>
         </li>
-        <li class="flex items-start">
+        <li class="flex items-start justify-center">
           <svg class="w-5 h-5 text-green-500 mr-2 mt-0.5" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"></path></svg>
           <span>Verificación mensual</span>
         </li>
       </ul>
-      <a href="#contact" class="block text-center py-3 px-6 rounded-lg bg-blue-600 text-white font-semibold hover:bg-blue-700 transition-colors">Comenzar ahora</a>
+      <!-- <a href="#contact" class="block text-center py-3 px-6 rounded-lg bg-blue-600 text-white font-semibold hover:bg-blue-700 transition-colors">Comenzar ahora</a> -->
     </div>
-    
-    <!-- Plan Premium -->
-    <div class="bg-white rounded-xl shadow-xl p-8 border-t-4 border-blue-600 flex flex-col transform scale-105 z-10">
-      <div class="absolute top-0 right-0 bg-blue-600 text-white text-xs font-bold px-3 py-1 rounded-bl-lg rounded-tr-lg">POPULAR</div>
+
+    <!-- Plan Premium (commented out for future use)
+    <div class="bg-white rounded-xl shadow-lg p-8 border-t-4 border-purple-400 flex flex-col">
       <h3 class="text-2xl font-bold mb-2">Premium</h3>
-      <div class="text-gray-600 mb-4">Para necesidades completas</div>
+      <div class="text-gray-600 mb-4">Para necesidades avanzadas</div>
       <div class="text-4xl font-bold mb-6">TBD<span class="text-lg text-gray-500 font-normal">/mes</span></div>
       <ul class="space-y-3 mb-8 flex-grow">
         <li class="flex items-start">
           <svg class="w-5 h-5 text-green-500 mr-2 mt-0.5" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"></path></svg>
-          <span>25GB de almacenamiento</span>
+          <span>20GB de almacenamiento</span>
         </li>
         <li class="flex items-start">
           <svg class="w-5 h-5 text-green-500 mr-2 mt-0.5" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"></path></svg>
@@ -173,29 +172,26 @@ type: website
         </li>
         <li class="flex items-start">
           <svg class="w-5 h-5 text-green-500 mr-2 mt-0.5" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"></path></svg>
-          <span>Todo tipo de contenido</span>
+          <span>Documentos, textos y multimedia</span>
         </li>
         <li class="flex items-start">
           <svg class="w-5 h-5 text-green-500 mr-2 mt-0.5" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"></path></svg>
           <span>Verificación semanal</span>
         </li>
-        <li class="flex items-start">
-          <svg class="w-5 h-5 text-green-500 mr-2 mt-0.5" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"></path></svg>
-          <span>Mensajes personalizados</span>
-        </li>
       </ul>
-      <a href="#contact" class="block text-center py-3 px-6 rounded-lg bg-blue-600 text-white font-semibold hover:bg-blue-700 transition-colors">Comenzar ahora</a>
+      <a href="#contact" class="block text-center py-3 px-6 rounded-lg bg-purple-600 text-white font-semibold hover:bg-purple-700 transition-colors">Comenzar ahora</a>
     </div>
-    
-    <!-- Plan Empresarial -->
-    <div class="bg-white rounded-xl shadow-lg p-8 border-t-4 border-blue-400 flex flex-col">
+    -->
+
+    <!-- Plan Empresarial (commented out for future use)
+    <div class="bg-white rounded-xl shadow-lg p-8 border-t-4 border-green-400 flex flex-col">
       <h3 class="text-2xl font-bold mb-2">Empresarial</h3>
-      <div class="text-gray-600 mb-4">Para organizaciones</div>
+      <div class="text-gray-600 mb-4">Para empresas y organizaciones</div>
       <div class="text-4xl font-bold mb-6">TBD<span class="text-lg text-gray-500 font-normal">/mes</span></div>
       <ul class="space-y-3 mb-8 flex-grow">
         <li class="flex items-start">
           <svg class="w-5 h-5 text-green-500 mr-2 mt-0.5" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"></path></svg>
-          <span>100GB de almacenamiento</span>
+          <span>Almacenamiento ilimitado</span>
         </li>
         <li class="flex items-start">
           <svg class="w-5 h-5 text-green-500 mr-2 mt-0.5" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"></path></svg>
@@ -203,19 +199,16 @@ type: website
         </li>
         <li class="flex items-start">
           <svg class="w-5 h-5 text-green-500 mr-2 mt-0.5" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"></path></svg>
-          <span>Todo tipo de contenido</span>
+          <span>Todos los tipos de contenido</span>
         </li>
         <li class="flex items-start">
           <svg class="w-5 h-5 text-green-500 mr-2 mt-0.5" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"></path></svg>
           <span>Verificación diaria</span>
         </li>
-        <li class="flex items-start">
-          <svg class="w-5 h-5 text-green-500 mr-2 mt-0.5" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"></path></svg>
-          <span>API para integraciones</span>
-        </li>
       </ul>
-      <a href="#contact" class="block text-center py-3 px-6 rounded-lg bg-blue-600 text-white font-semibold hover:bg-blue-700 transition-colors">Contactar ventas</a>
+      <a href="#contact" class="block text-center py-3 px-6 rounded-lg bg-green-600 text-white font-semibold hover:bg-green-700 transition-colors">Comenzar ahora</a>
     </div>
+    -->
   </div>
 </div>
 
