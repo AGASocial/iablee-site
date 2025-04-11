@@ -1,7 +1,7 @@
 {
-  "name": "agasocial-website",
+  "name": "iablee-website",
   "version": "1.0.0",
-  "description": "AGA Social website",
+  "description": "IABLEE website",
   "scripts": {
     "build:css": "tailwindcss -i ./assets/css/main.css -o ./assets/css/style.css --watch"
   },
