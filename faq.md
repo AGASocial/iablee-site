@@ -28,11 +28,17 @@ permalink: /faq/
 
       <div class="bg-white p-6 rounded-lg shadow-md">
         <h3 class="text-xl font-semibold text-blue-600 mb-2">¿Qué tipo de información puedo guardar?</h3>
-        <p>Puedes almacenar prácticamente cualquier tipo de información digital: documentos, fotos, videos, contraseñas, información financiera, mensajes personales, instrucciones específicas, y más. Nuestros diferentes planes ofrecen distintas capacidades de almacenamiento.</p>
+        <p>Puedes almacenar prácticamente cualquier tipo de información digital: documentos, fotos, videos, contraseñas, información financiera, mensajes personales, instrucciones específicas, y más. Nuestros diferentes planes ofrecen distintos tipos de servicios y diferentes capacidades de almacenamiento.</p>
       </div>
+
+
+      <div class="bg-white p-6 rounded-lg shadow-md">
+        <h3 class="text-xl font-semibold text-blue-600 mb-2">¿Quién puede ser mi beneficiario?</h3>
+        <p>Cualquier persona puede ser tu beneficiario. Solo necesitas proporcionar su nombre y dirección de correo electrónico. Puedes designar múltiples beneficiarios y especificar qué información recibe cada uno. 
+        Nota: En caso de que la persona sea un menor de edad se solicitara información adicional como el registro civil para validad la identidad del beneficiario. Así mismo se deberá configurar en el sistema si el beneficiario recibirá la información inmediatamente o al cumplir la mayoría de edad.</p>
     </div>
   </div>
-
+<br>
   <div>
     <h2 class="text-2xl font-bold text-gray-900 mb-4">Seguridad y Privacidad</h2>
     
@@ -53,7 +59,7 @@ permalink: /faq/
       </div>
     </div>
   </div>
-
+<br>
   <div>
     <h2 class="text-2xl font-bold text-gray-900 mb-4">Beneficiarios</h2>
     
@@ -74,7 +80,7 @@ permalink: /faq/
       </div>
     </div>
   </div>
-
+<br>
   <div>
     <h2 class="text-2xl font-bold text-gray-900 mb-4">Planes y Pagos</h2>
     
@@ -95,7 +101,7 @@ permalink: /faq/
       </div>
     </div>
   </div>
-
+<br>
   <div>
     <h2 class="text-2xl font-bold text-gray-900 mb-4">Soporte y Ayuda</h2>
     
