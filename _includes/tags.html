@@ -1,22 +1,22 @@
 <!-- SEO Tags -->
 {% if page.title %}
-    <title>{{ page.title }} | {{ site.title }}</title>
-    <meta property="og:title" content="{{ page.title }} | {{ site.title }}" />
-    <meta name="twitter:title" content="{{ page.title }} | {{ site.title }}" />
+<title>{{ page.title }} | {{ site.title }}</title>
+<meta property="og:title" content="{{ page.title }} | {{ site.title }}" />
+<meta name="twitter:title" content="{{ page.title }} | {{ site.title }}" />
 {% else %}
-    <title>{{ site.title }}</title>
-    <meta property="og:title" content="{{ site.title }}" />
-    <meta name="twitter:title" content="{{ site.title }}" />
+<title>{{ site.title }}</title>
+<meta property="og:title" content="{{ site.title }}" />
+<meta name="twitter:title" content="{{ site.title }}" />
 {% endif %}
 
 {% if page.description %}
-    <meta name="description" content="{{ page.description }}" />
-    <meta property="og:description" content="{{ page.description }}" />
-    <meta name="twitter:description" content="{{ page.description }}" />
+<meta name="description" content="{{ page.description }}" />
+<meta property="og:description" content="{{ page.description }}" />
+<meta name="twitter:description" content="{{ page.description }}" />
 {% else %}
-    <meta name="description" content="{{ site.description }}" />
-    <meta property="og:description" content="{{ site.description }}" />
-    <meta name="twitter:description" content="{{ site.description }}" />
+<meta name="description" content="{{ site.description }}" />
+<meta property="og:description" content="{{ site.description }}" />
+<meta name="twitter:description" content="{{ site.description }}" />
 {% endif %}
 
 <!-- Open Graph / Social Media Tags -->
@@ -26,17 +26,17 @@
 
 <!-- Image Tags for Social Media -->
 {% if page.image %}
-    <meta property="og:image" content="{{ site.url }}{{ page.image }}" />
-    <meta name="twitter:image" content="{{ site.url }}{{ page.image }}" />
+<meta property="og:image" content="{{ site.url }}{{ page.image }}" />
+<meta name="twitter:image" content="{{ site.url }}{{ page.image }}" />
 {% elsif site.default_image %}
-    <meta property="og:image" content="{{ site.url }}{{ site.default_image }}" />
-    <meta name="twitter:image" content="{{ site.url }}{{ site.default_image }}" />
+<meta property="og:image" content="{{ site.url }}{{ site.default_image }}" />
+<meta name="twitter:image" content="{{ site.url }}{{ site.default_image }}" />
 {% endif %}
 
 <!-- Twitter Card Tags -->
 <meta name="twitter:card" content="summary_large_image" />
 {% if site.twitter_username %}
-    <meta name="twitter:site" content="@{{ site.twitter_username }}" />
+<meta name="twitter:site" content="@{{ site.twitter_username }}" />
 {% endif %}
 
 <!-- Canonical URL -->
@@ -51,9 +51,9 @@
 <!-- Language and Locale -->
 <meta property="og:locale" content="{{ site.lang | default: 'en' }}" />
 {% if site.alternate_languages %}
-    {% for lang in site.alternate_languages %}
-        <link rel="alternate" hreflang="{{ lang.code }}" href="{{ site.url }}{{ lang.url }}" />
-    {% endfor %}
+{% for lang in site.alternate_languages %}
+<link rel="alternate" hreflang="{{ lang.code }}" href="{{ site.url }}{{ lang.url }}" />
+{% endfor %}
 {% endif %}
 
 <!-- Rich Snippets and Structured Data -->
@@ -85,10 +85,10 @@
 
 <!-- Security and Performance -->
 {% if site.external_domains %}
-    {% for domain in site.external_domains %}
-        <link rel="dns-prefetch" href="{{ domain }}" />
-        <link rel="preconnect" href="{{ domain }}" crossorigin />
-    {% endfor %}
+{% for domain in site.external_domains %}
+<link rel="dns-prefetch" href="{{ domain }}" />
+<link rel="preconnect" href="{{ domain }}" crossorigin />
+{% endfor %}
 {% endif %}
 
 <!-- Mobile and App Integration -->
@@ -105,21 +105,21 @@
 
 <!-- Content Verification -->
 {% if site.google_site_verification %}
-    <meta name="google-site-verification" content="{{ site.google_site_verification }}" />
+<meta name="google-site-verification" content="{{ site.google_site_verification }}" />
 {% endif %}
 {% if site.bing_site_verification %}
-    <meta name="msvalidate.01" content="{{ site.bing_site_verification }}" />
+<meta name="msvalidate.01" content="{{ site.bing_site_verification }}" />
 {% endif %}
 {% if site.pinterest_site_verification %}
-    <meta name="p:domain_verify" content="{{ site.pinterest_site_verification }}" />
+<meta name="p:domain_verify" content="{{ site.pinterest_site_verification }}" />
 {% endif %}
 
 <!-- Keywords if specified -->
 {% if page.keywords %}
-    <meta name="keywords" content="{{ page.keywords | join: ', ' }}" />
+<meta name="keywords" content="{{ page.keywords | join: ', ' }}" />
 {% endif %}
 
 <!-- Favicon -->
 <link rel="icon" type="image/png" sizes="32x32" href="{{ site.url }}/assets/images/favicon.jpeg">
 <link rel="icon" type="image/png" sizes="16x16" href="{{ site.url }}/assets/images/favicon.jpeg">
-<link rel="apple-touch-icon" sizes="180x180" href="{{ site.url }}/assets/images/apple-touch-icon.png">
+<link rel="apple-touch-icon" sizes="180x180" href="{{ site.url }}/assets/images/apple-touch-icon.jpeg">
