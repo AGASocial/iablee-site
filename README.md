@@ -1,0 +1,1 @@
+Supabase password esta en el Chat con Alejandro
