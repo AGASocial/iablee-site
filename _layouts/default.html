@@ -8,8 +8,9 @@
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
   <!-- add tailwind css -->
   <link rel="stylesheet" href="https://unpkg.com/tailwindcss@^2/dist/tailwind.min.css">
-  <link rel="stylesheet" href="{{ " /assets/css/main.css" | relative_url }}">
-  <link rel="icon" type="image/jpeg" href="{{ " /assets/images/favicon.jpeg" | relative_url }}">
+  <link rel="stylesheet" href="{% if site.baseurl %}{{ site.baseurl }}{% endif %}/assets/css/main.css">
+  <link rel="icon" type="image/jpeg"
+    href="{% if site.baseurl %}{{ site.baseurl }}{% endif %}/assets/images/favicon.jpeg">
   <script defer src="https://unpkg.com/alpinejs@3.x.x/dist/cdn.min.js"></script>
 </head>
 
@@ -39,19 +40,19 @@
 
         <!-- Desktop menu -->
         <nav class="hidden md:flex md:items-center md:space-x-8">
-          <a href="{{ " /" | relative_url }}"
+          <a href="{% if site.baseurl %}{{ site.baseurl }}{% endif %}/"
             class="text-gray-600 hover:text-blue-600 transition duration-300">Inicio</a>
-          <a href="{{ " /" | relative_url }}#funcionalidades"
+          <a href="{% if site.baseurl %}{{ site.baseurl }}{% endif %}/#funcionalidades"
             class="text-gray-600 hover:text-blue-600 transition duration-300">Funcionalidades</a>
-          <a href="{{ " /" | relative_url }}#planes"
+          <a href="{% if site.baseurl %}{{ site.baseurl }}{% endif %}/#planes"
             class="text-gray-600 hover:text-blue-600 transition duration-300">Planes</a>
-          <a href="{{ " /" | relative_url }}faq"
+          <a href="{% if site.baseurl %}{{ site.baseurl }}{% endif %}/faq"
             class="text-gray-600 hover:text-blue-600 transition duration-300">Preguntas Frecuentes</a>
           <a href="{{ site.baseurl }}/coming-soon.html"
             class="text-gray-600 hover:text-blue-600 transition duration-300">Ingresar</a>
           <a href="{{ site.baseurl }}/coming-soon.html"
             class="text-gray-600 hover:text-blue-600 transition duration-300">Regístrate</a>
-          <a href="{{ " /" | relative_url }}#contact"
+          <a href="{% if site.baseurl %}{{ site.baseurl }}{% endif %}/#contact"
             class="bg-blue-600 text-white px-4 py-2 rounded-full hover:bg-blue-700 transition duration-300">Contacto</a>
         </nav>
       </div>
@@ -59,17 +60,17 @@
       <!-- Mobile menu -->
       <div x-show="isOpen" class="md:hidden" id="mobile-menu" style="display: none;">
         <div class="px-2 pt-2 pb-3 space-y-1">
-          <a href="{{ " /" | relative_url }}"
+          <a href="{% if site.baseurl %}{{ site.baseurl }}{% endif %}/"
             class="block px-3 py-2 rounded-md text-base font-medium text-gray-600 hover:text-blue-600 hover:bg-gray-100 transition duration-300">Inicio</a>
-          <a href="{{ " /" | relative_url }}#funcionalidades"
+          <a href="{% if site.baseurl %}{{ site.baseurl }}{% endif %}/#funcionalidades"
             class="block px-3 py-2 rounded-md text-base font-medium text-gray-600 hover:text-blue-600 hover:bg-gray-100 transition duration-300">Funcionalidades</a>
-          <a href="{{ " /" | relative_url }}#planes"
+          <a href="{% if site.baseurl %}{{ site.baseurl }}{% endif %}/#planes"
             class="block px-3 py-2 rounded-md text-base font-medium text-gray-600 hover:text-blue-600 hover:bg-gray-100 transition duration-300">Planes</a>
           <a href="{{ site.baseurl }}/coming-soon.html"
             class="block px-3 py-2 rounded-md text-base font-medium text-gray-600 hover:text-blue-600 hover:bg-gray-100 transition duration-300">Ingresar</a>
           <a href="{{ site.baseurl }}/coming-soon.html"
             class="block px-3 py-2 rounded-md text-base font-medium text-gray-600 hover:text-blue-600 hover:bg-gray-100 transition duration-300">Regístrate</a>
-          <a href="{{ " /" | relative_url }}#contact"
+          <a href="{% if site.baseurl %}{{ site.baseurl }}{% endif %}/#contact"
             class="block px-3 py-2 rounded-md text-base font-medium text-gray-600 hover:text-blue-600 hover:bg-gray-100 transition duration-300">Contacto</a>
         </div>
       </div>
@@ -93,7 +94,7 @@
           <ul class="text-gray-400 space-y-2">
             <li>Email: <a href="mailto:info@iablee.com"
                 class="hover:text-blue-400 transition-colors duration-300">info@iablee.com</a></li>
-            <li>Teléfono: +1 (555) 123-4567</li>
+            <li>Teléfono: +57 300 1580398</li>
           </ul>
         </div>
         <div>

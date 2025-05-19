@@ -87,12 +87,16 @@ permalink: /faq/
     <div class="space-y-4">
       <div class="bg-white p-6 rounded-lg shadow-md">
         <h3 class="text-xl font-semibold text-blue-600 mb-2">¿Cuánto cuesta el servicio?</h3>
-        <p>Ofrecemos diferentes planes para adaptarnos a diversas necesidades. Nuestro plan básico comienza en $9.99 al mes. Consulta nuestra página de precios para más detalles.</p>
+        <p>Ofrecemos diferentes planes para adaptarnos a diversas necesidades. Nuestro plan básico comienza en COB $2.990 al mes. Consulta nuestra página de precios para más detalles.</p>
       </div>
 
       <div class="bg-white p-6 rounded-lg shadow-md">
         <h3 class="text-xl font-semibold text-blue-600 mb-2">¿Qué sucede si dejo de pagar?</h3>
-        <p>Si dejas de pagar, tu cuenta entrará en un período de gracia durante el cual seguiremos almacenando tu información pero con funcionalidades limitadas. Después de este período, tu cuenta será suspendida, pero mantendremos tu información durante un período adicional antes de eliminarla.</p>
+        <p>Si no logramos procesar tu pago, te notificaremos durante un período de 30 días para que puedas regularizarlo. Durante ese tiempo, tu cuenta se mantendrá activa.
+
+        Si después de esos 30 días el pago no ha sido recibido, tu cuenta será suspendida, aunque tu información se conservará de forma segura durante un período adicional de 6 meses.
+
+        Si decides reactivar tu cuenta dentro de esos 6 meses, deberás pagar los meses vencidos junto con una comisión por reactivación. Pasado ese plazo, tu información será eliminada de forma permanente. Luego de 6 meses deberás realizar el registro de nuevo en la plataforma.</p>
       </div>
 
       <div class="bg-white p-6 rounded-lg shadow-md">
