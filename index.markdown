@@ -94,7 +94,6 @@ type: website
           <h3 class="text-lg font-semibold mb-2">Regístrate</h3>
           <p class="text-gray-600">Crea tu cuenta y configura tu perfil personal.</p>
         </div>
-        <div class="absolute top-8 left-full w-full h-0.5 bg-blue-200 hidden md:block" style="width: calc(100% - 3rem);"></div>
       </div>
       <div class="relative">
         <div class="bg-blue-600 text-white w-12 h-12 rounded-full flex items-center justify-center text-xl font-bold mx-auto mb-4">2</div>
@@ -102,7 +101,6 @@ type: website
           <h3 class="text-lg font-semibold mb-2">Almacena</h3>
           <p class="text-gray-600">Sube tus archivos, documentos importantes y mensajes personalizados.</p>
         </div>
-        <div class="absolute top-8 left-full w-full h-0.5 bg-blue-200 hidden md:block" style="width: calc(100% - 3rem);"></div>
       </div>
       <div class="relative">
         <div class="bg-blue-600 text-white w-12 h-12 rounded-full flex items-center justify-center text-xl font-bold mx-auto mb-4">3</div>
@@ -110,7 +108,6 @@ type: website
           <h3 class="text-lg font-semibold mb-2">Asigna</h3>
           <p class="text-gray-600">Define beneficiarios y qué información recibirá cada uno.</p>
         </div>
-        <div class="absolute top-8 left-full w-full h-0.5 bg-blue-200 hidden md:block" style="width: calc(100% - 3rem);"></div>
       </div>
       <div>
         <div class="bg-blue-600 text-white w-12 h-12 rounded-full flex items-center justify-center text-xl font-bold mx-auto mb-4">4</div>
@@ -129,9 +126,9 @@ type: website
     <h2 class="text-3xl md:text-4xl font-bold mb-4">Planes y Precios</h2>
     <p class="text-gray-600 max-w-2xl mx-auto">Elige el plan que mejor se adapte a tus necesidades</p>
   </div>
-  <div class="grid md:grid-cols-2 gap-8 max-w-6xl mx-auto text-center">
+  <div class="grid md:grid-cols-3 gap-8 max-w-6xl mx-auto text-center">
     <!-- Plan Básico -->
-    <div class="bg-white rounded-xl shadow-lg p-8 border-t-4 border-blue-400 flex flex-col max-w-screen-md mx-auto">
+    <!-- <div class="bg-white rounded-xl shadow-lg p-8 border-t-4 border-blue-400 flex flex-col max-w-screen-md mx-auto">
       <h3 class="text-2xl font-bold mb-2 text-center">Plan Gratuito</h3>
       <div class="text-gray-600 mb-4 text-center">Conoce nuestro producto registrando tu primera experiencia en IABLEE. Creemos una relación de confianza y de lealtad juntos. Cifrado bancario completo de todos los datos</div>
       <div class="text-4xl font-bold mb-6 text-center">$0<span class="text-lg text-gray-500 font-normal">/mes</span></div>
@@ -158,17 +155,20 @@ type: website
         </li>
         
       </ul>
-      <!-- <a href="#contact" class="block text-center py-3 px-6 rounded-lg bg-blue-600 text-white font-semibold hover:bg-blue-700 transition-colors">Comenzar ahora</a> -->
-    </div>
+    </div> -->
 
     <div class="bg-white rounded-xl shadow-lg p-8 border-t-4 border-purple-400 flex flex-col">
       <h3 class="text-2xl font-bold mb-2">Plan Necesario</h3>
       <div class="text-gray-600 mb-4">Plan idean para todos nuestros nuevos usuarios, aquí tienes todas las características esenciales del producto necesarias a un precio increíblemente económico para no afectar tu presupuesto mensual en absolutamente nada. Cifrado bancario completo de todos los datos</div>
-      <div class="text-4xl font-bold mb-6">$3.000<span class="text-lg text-gray-500 font-normal">/mes</span></div>
+      <div class="text-4xl font-bold mb-6">$3.500<span class="text-lg text-gray-500 font-normal">/mes</span></div>
       <ul class="space-y-3 mb-8 flex-grow text-left">
         <li class="flex items-start">
           <svg class="w-5 h-5 text-green-500 mr-2 mt-0.5" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"></path></svg>
-          <span>Alta Seguridad</span>
+          <span>Alta Seguridad: Cifrado bancario</span>
+        </li>
+        <li class="flex items-start">
+          <svg class="w-5 h-5 text-green-500 mr-2 mt-0.5" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"></path></svg>
+          <span>Agregue Activos ILIMITADOS de texto</span>
         </li>
         <li class="flex items-start">
           <svg class="w-5 h-5 text-green-500 mr-2 mt-0.5" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"></path></svg>
@@ -180,7 +180,7 @@ type: website
         </li>
         <li class="flex items-start">
           <svg class="w-5 h-5 text-green-500 mr-2 mt-0.5" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"></path></svg>
-          <span>Agregue 5 videos informativos a sus beneficiarios</span>
+          <span>Agregue 5 videos informativos</span>
         </li>
         <li class="flex items-start">
           <svg class="w-5 h-5 text-green-500 mr-2 mt-0.5" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"></path></svg>
@@ -200,11 +200,11 @@ type: website
         </li>
         <li class="flex items-start">
           <svg class="w-5 h-5 text-green-500 mr-2 mt-0.5" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"></path></svg>
-          <span>Detección Biométrica tiempo real a través de App Iablee</span>
+          <span>Detección Biométrica tiempo real</span>
         </li>
         <li class="flex items-start">
           <svg class="w-5 h-5 text-green-500 mr-2 mt-0.5" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"></path></svg>
-          <span>Validación continua de correos Electrónicos</span>
+          <span>Validación de correos Electrónicos</span>
         </li>
       </ul>
       <!-- <a href="#contact" class="block text-center py-3 px-6 rounded-lg bg-purple-600 text-white font-semibold hover:bg-purple-700 transition-colors">Comenzar ahora</a> -->
@@ -212,69 +212,37 @@ type: website
 
     <!-- Plan Total -->
     <div class="bg-white rounded-xl shadow-lg p-8 border-t-4 border-green-400 flex flex-col">
-      <h3 class="text-2xl font-bold mb-2">Plan Total (Próximamente)</h3>
+      <h3 class="text-2xl font-bold mb-2">Plan Total<br>(Próximamente)</h3>
       <div class="text-gray-600 mb-4">Plan totalmente cubierto para que tengas tu voluntad póstuma absolutamente asegurada, con este plan recibes apoyo total y asesoría personalizada para tus activos y acciones futuras</div>
       <div class="text-4xl font-bold mb-6">Próximamente<span class="text-lg text-gray-500 font-normal"></span></div>
       <ul class="space-y-3 mb-8 flex-grow text-left">
         <li class="flex items-start">
+          Todo lo incluido en el Plan Necesario, más...
+        </li>
+        
+        <li class="flex items-start">
           <svg class="w-5 h-5 text-green-500 mr-2 mt-0.5" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"></path></svg>
-          <span>Alta Seguridad: Cifrado bancario completo de todos los datos</span>
+          <span>Traspaso notariales póstumos</span>
         </li>
         <li class="flex items-start">
           <svg class="w-5 h-5 text-green-500 mr-2 mt-0.5" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"></path></svg>
-          <span>Agregue Activos ILIMITADOS de texto y contraseñas</span>
+          <span>Cierre de tu vida digital</span>
         </li>
         <li class="flex items-start">
           <svg class="w-5 h-5 text-green-500 mr-2 mt-0.5" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"></path></svg>
-          <span>Agregue Documentos Escaneados ILIMITADOS y contraseñas</span>
+          <span>Integración con Redes sociales</span>
         </li>
         <li class="flex items-start">
           <svg class="w-5 h-5 text-green-500 mr-2 mt-0.5" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"></path></svg>
-          <span>Agregue 5 videos informativos a sus beneficiarios</span>
+          <span>Conexión a Binance y a Buda.com</span>
         </li>
         <li class="flex items-start">
           <svg class="w-5 h-5 text-green-500 mr-2 mt-0.5" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"></path></svg>
-          <span>Agregue Activos de Audio ILIMITADOS</span>
-        </li>
-        <li class="flex items-start">
-          <svg class="w-5 h-5 text-green-500 mr-2 mt-0.5" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"></path></svg>
-          <span>Agregue fotos ILIMITADAS</span>
-        </li>
-        <li class="flex items-start">
-          <svg class="w-5 h-5 text-green-500 mr-2 mt-0.5" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"></path></svg>
-          <span>Módulo de Traspaso notariales póstumos</span>
-        </li>
-        <li class="flex items-start">
-          <svg class="w-5 h-5 text-green-500 mr-2 mt-0.5" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"></path></svg>
-          <span>Modulo de acciones ejecutables para cierre de tu vida digital</span>
-        </li>
-        <li class="flex items-start">
-          <svg class="w-5 h-5 text-green-500 mr-2 mt-0.5" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"></path></svg>
-          <span>Integración con Redes sociales para cierre de tus cuentas en redes y despedida</span>
-        </li>
-        <li class="flex items-start">
-          <svg class="w-5 h-5 text-green-500 mr-2 mt-0.5" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"></path></svg>
-          <span>Billetera de Criptomoneda conectada a Binance y a Buda.com para que asegures</span>
-        </li>
-        <li class="flex items-start">
-          <svg class="w-5 h-5 text-green-500 mr-2 mt-0.5" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"></path></svg>
-          <span>Servicio telefónico de consultoría legal para tus activos</span>
+          <span>Consultoría legal para tus activos</span>
         </li>
         <li class="flex items-start">
           <svg class="w-5 h-5 text-green-500 mr-2 mt-0.5" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"></path></svg>
           <span>20 beneficiarios máximo</span>
-        </li>
-        <li class="flex items-start">
-          <svg class="w-5 h-5 text-green-500 mr-2 mt-0.5" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"></path></svg>
-          <span>Detección de Deceso</span>
-        </li>
-        <li class="flex items-start">
-          <svg class="w-5 h-5 text-green-500 mr-2 mt-0.5" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"></path></svg>
-          <span>Detección Biométrica tiempo real a través de App Iablee</span>
-        </li>
-        <li class="flex items-start">
-          <svg class="w-5 h-5 text-green-500 mr-2 mt-0.5" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"></path></svg>
-          <span>Validación continua de correos Electrónicos</span>
         </li>
       </ul>
       <!-- <a href="#contact" class="block text-center py-3 px-6 rounded-lg bg-green-600 text-white font-semibold hover:bg-green-700 transition-colors">Comenzar ahora</a> -->
@@ -282,74 +250,31 @@ type: website
    
    <!-- Plan Inteligente -->
     <div class="bg-white rounded-xl shadow-lg p-8 border-t-4 border-orange-400 flex flex-col">
-      <h3 class="text-2xl font-bold mb-2">Plan Inteligente (TIEMPO LIMITADO)</h3>
-      <div class="text-gray-600 mb-4">Actualmente somos una empresa en desarrollo y nos estamos capitalizando para llevar el PLAN NECESARIO a todas las personas en el mundo porque SI, ESTO ES UNA NECESIDAD QUE TENEMOS TODOS. 
-Si quieres apoyar nuestra causa y llevar este servicio necesario a todos, este plan es para ti. disfruta a perpetuidad de todos los servicios del PLAN TOTAL por un PAGO UNICO y recibe todos los beneficios y actualizaciones sin costo adicional</div>
+      <h3 class="text-2xl font-bold mb-2">Plan Inteligente<br>(TIEMPO LIMITADO)</h3>
+      <div class="text-gray-600 mb-4">Si quieres apoyar nuestra causa y llevar este servicio necesario a todos, este plan es para ti. disfruta a perpetuidad de todos los servicios del PLAN TOTAL por un PAGO UNICO y recibe todos los beneficios y actualizaciones sin costo adicional</div>
       <div class="text-4xl font-bold mb-6">$1.299.000<span class="text-lg text-gray-500 font-normal">/pago único</span></div>
       <ul class="space-y-3 mb-8 flex-grow text-left">
-        <li class="flex items-start">
-          <svg class="w-5 h-5 text-green-500 mr-2 mt-0.5" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"></path></svg>
-          <span>Alta Seguridad: Cifrado bancario completo de todos los datos</span>
+       <li class="flex items-start">
+          Todo lo incluido en el Plan Total, más...
         </li>
         <li class="flex items-start">
           <svg class="w-5 h-5 text-green-500 mr-2 mt-0.5" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"></path></svg>
-          <span>Agregue Activos ILIMITADOS de texto y contraseñas</span>
+          <span>Agregue Activos ILIMITADOS</span>
         </li>
         <li class="flex items-start">
           <svg class="w-5 h-5 text-green-500 mr-2 mt-0.5" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"></path></svg>
-          <span>Agregue Documentos Escaneados ILIMITADOS y contraseñas</span>
+          <span>Agregue videos ILIMITADOS</span>
         </li>
         <li class="flex items-start">
           <svg class="w-5 h-5 text-green-500 mr-2 mt-0.5" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"></path></svg>
-          <span>Agregue 5 videos informativos a sus beneficiarios</span>
+          <span>Agregue audios ILIMITADOS</span>
         </li>
         <li class="flex items-start">
           <svg class="w-5 h-5 text-green-500 mr-2 mt-0.5" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"></path></svg>
-          <span>Agregue Activos de Audio ILIMITADOS</span>
+          <span>Hasta 20 beneficiarios</span>
         </li>
         <li class="flex items-start">
-          <svg class="w-5 h-5 text-green-500 mr-2 mt-0.5" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"></path></svg>
-          <span>Agregue fotos ILIMITADAS</span>
-        </li>
-        <li class="flex items-start">
-          <svg class="w-5 h-5 text-green-500 mr-2 mt-0.5" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"></path></svg>
-          <span>Módulo de Traspaso notariales póstumos</span>
-        </li>
-        <li class="flex items-start">
-          <svg class="w-5 h-5 text-green-500 mr-2 mt-0.5" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"></path></svg>
-          <span>Módulo de acciones ejecutables para cierre de tu vida digital</span>
-        </li>
-        <li class="flex items-start">
-          <svg class="w-5 h-5 text-green-500 mr-2 mt-0.5" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"></path></svg>
-          <span>Integración con Redes sociales para cierre de tus cuentas en redes y despedida</span>
-        </li>
-        <li class="flex items-start">
-          <svg class="w-5 h-5 text-green-500 mr-2 mt-0.5" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"></path></svg>
-          <span>Billetera de Criptomoneda conectada a Binance y a Buda.com para que asegures</span>
-        </li>
-        <li class="flex items-start">
-          <svg class="w-5 h-5 text-green-500 mr-2 mt-0.5" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"></path></svg>
-          <span>Servicio telefónico de consultoría legal para tus activos</span>
-        </li>
-        <li class="flex items-start">
-          <svg class="w-5 h-5 text-green-500 mr-2 mt-0.5" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"></path></svg>
-          <span>20 beneficiarios máximo</span>
-        </li>
-        <li class="flex items-start">
-          <svg class="w-5 h-5 text-green-500 mr-2 mt-0.5" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"></path></svg>
-          <span>Detección de Deceso</span>
-        </li>
-        <li class="flex items-start">
-          <svg class="w-5 h-5 text-green-500 mr-2 mt-0.5" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"></path></svg>
-          <span>Detección Biométrica tiempo real a través de App Iablee</span>
-        </li>
-        <li class="flex items-start">
-          <svg class="w-5 h-5 text-green-500 mr-2 mt-0.5" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"></path></svg>
-          <span>Validación continua de correos Electrónicos</span>
-        </li>
-        <li class="flex items-start">
-          <svg class="w-5 h-5 text-green-500 mr-2 mt-0.5" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"></path></svg>
-          <span>ACTUALIZACIONES ILIMITADAS Y NUEVOS SERVICIOS A FUTURO SIN COSTO ALGUNO</span>
+          <span>Actualizaciones ilimitadas y nuevos servicios a futuro sin costo alguno</span>
         </li>
       </ul>
       <a href="#contact" class="block text-center py-3 px-6 rounded-lg bg-orange-600 text-white font-semibold hover:bg-orange-700 transition-colors">Comenzar ahora</a>
