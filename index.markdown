@@ -158,9 +158,62 @@ type: website
     </div> -->
 
     <div class="bg-white rounded-xl shadow-lg p-8 border-t-4 border-purple-400 flex flex-col">
-      <h3 class="text-2xl font-bold mb-2">Plan Necesario</h3>
-      <div class="text-gray-600 mb-4">Plan idean para todos nuestros nuevos usuarios, aquí tienes todas las características esenciales del producto necesarias a un precio increíblemente económico para no afectar tu presupuesto mensual en absolutamente nada. Cifrado bancario completo de todos los datos</div>
-      <div class="text-4xl font-bold mb-6">$3.500<span class="text-lg text-gray-500 font-normal">/mes</span></div>
+      <h3 class="text-2xl font-bold mb-2">Plan Mensual</h3>
+      <div class="text-gray-600 mb-4">Plan ideal para todos nuestros usuarios, aquí tienes todas las características esenciales del producto necesarias a un precio increíblemente económico para no afectar tu presupuesto mensual en absolutamente nada. Cifrado bancario completo de todos los datos</div>
+      <div class="text-4xl font-bold mb-6">$5.000<span class="text-lg text-gray-500 font-normal">/mes</span></div>
+      <ul class="space-y-3 mb-8 flex-grow text-left">
+        <li class="flex items-start">
+          <svg class="w-5 h-5 text-green-500 mr-2 mt-0.5" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"></path></svg>
+          <span>Alta Seguridad: Cifrado bancario</span>
+        </li>
+        <li class="flex items-start">
+          <svg class="w-5 h-5 text-green-500 mr-2 mt-0.5" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"></path></svg>
+          <span>Agregue Activos ILIMITADOS de texto</span>
+        </li>
+        <li class="flex items-start">
+          <svg class="w-5 h-5 text-green-500 mr-2 mt-0.5" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"></path></svg>
+          <span>Agregue Activos ILIMITADOS de texto</span>
+        </li>
+        <li class="flex items-start">
+          <svg class="w-5 h-5 text-green-500 mr-2 mt-0.5" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"></path></svg>
+          <span>Agregue Documentos Escaneados</span>
+        </li>
+        <li class="flex items-start">
+          <svg class="w-5 h-5 text-green-500 mr-2 mt-0.5" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"></path></svg>
+          <span>Agregue 5 videos informativos</span>
+        </li>
+        <li class="flex items-start">
+          <svg class="w-5 h-5 text-green-500 mr-2 mt-0.5" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"></path></svg>
+          <span>Agregue Activos de Audio</span>
+        </li>
+        <li class="flex items-start">
+          <svg class="w-5 h-5 text-green-500 mr-2 mt-0.5" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"></path></svg>
+          <span>Agregue fotos</span>
+        </li>
+        <li class="flex items-start">
+          <svg class="w-5 h-5 text-green-500 mr-2 mt-0.5" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"></path></svg>
+          <span>Hasta 6 beneficiarios</span>
+        </li>
+        <li class="flex items-start">
+          <svg class="w-5 h-5 text-green-500 mr-2 mt-0.5" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"></path></svg>
+          <span>Detección de Deceso</span>
+        </li>
+        <li class="flex items-start">
+          <svg class="w-5 h-5 text-green-500 mr-2 mt-0.5" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"></path></svg>
+          <span>Detección Biométrica tiempo real</span>
+        </li>
+        <li class="flex items-start">
+          <svg class="w-5 h-5 text-green-500 mr-2 mt-0.5" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"></path></svg>
+          <span>Validación de correos Electrónicos</span>
+        </li>
+      </ul>
+      <!-- <a href="#contact" class="block text-center py-3 px-6 rounded-lg bg-purple-600 text-white font-semibold hover:bg-purple-700 transition-colors">Comenzar ahora</a> -->
+    </div>
+
+    <div class="bg-white rounded-xl shadow-lg p-8 border-t-4 border-blue-400 flex flex-col">
+      <h3 class="text-2xl font-bold mb-2">Plan Anual</h3>
+      <div class="text-gray-600 mb-4">Al pagar la anualidad, como usuario IABLEE recibe beneficios adicionales. Para nuestros usuarios con el plan anual, tendremos actualizaciones a futuro sin costo adicional.</div>
+      <div class="text-4xl font-bold mb-6">$50.000<span class="text-lg text-gray-500 font-normal">/año</span></div>
       <ul class="space-y-3 mb-8 flex-grow text-left">
         <li class="flex items-start">
           <svg class="w-5 h-5 text-green-500 mr-2 mt-0.5" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"></path></svg>
@@ -211,7 +264,7 @@ type: website
     </div>
 
     <!-- Plan Total -->
-    <div class="bg-white rounded-xl shadow-lg p-8 border-t-4 border-green-400 flex flex-col">
+    <div style="display: none" class="bg-white rounded-xl shadow-lg p-8 border-t-4 border-green-400 flex flex-col">
       <h3 class="text-2xl font-bold mb-2">Plan Total<br>(Próximamente)</h3>
       <div class="text-gray-600 mb-4">Plan totalmente cubierto para que tengas tu voluntad póstuma absolutamente asegurada, con este plan recibes apoyo total y asesoría personalizada para tus activos y acciones futuras</div>
       <div class="text-4xl font-bold mb-6">Próximamente<span class="text-lg text-gray-500 font-normal"></span></div>
@@ -244,9 +297,9 @@ type: website
     </div>
    
    <!-- Plan Inteligente -->
-    <div class="bg-white rounded-xl shadow-lg p-8 border-t-4 border-orange-400 flex flex-col">
-      <h3 class="text-2xl font-bold mb-2">Plan Inteligente<br>(TIEMPO LIMITADO)</h3>
-      <div class="text-gray-600 mb-4">Si quieres apoyar nuestra causa y llevar este servicio necesario a todos, este plan es para ti. disfruta a perpetuidad de todos los servicios del PLAN TOTAL por un PAGO UNICO y recibe todos los beneficios y actualizaciones sin costo adicional</div>
+    <div class="bg-white rounded-xl shadow-lg p-8 border-t-4 border-green-400 flex flex-col">
+      <h3 class="text-2xl font-bold mb-2">Pago Único<br>(TIEMPO LIMITADO)</h3>
+      <div class="text-gray-600 mb-4">Si quieres apoyar nuestra causa y llevar este servicio necesario a todos, este plan es para ti. disfruta a perpetuidad de todos los servicios de IABLEE por un PAGO UNICO y recibe todos los beneficios y actualizaciones sin costo adicional</div>
       <div class="text-4xl font-bold mb-6">$1.299.000<span class="text-lg text-gray-500 font-normal">/pago único</span></div>
       <ul class="space-y-3 mb-8 flex-grow text-left">
        <li class="flex items-start">
