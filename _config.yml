@@ -61,4 +61,6 @@ exclude:
   - vendor/bundle/
   - vendor/cache/
   - vendor/gems/
-  - vendor/ruby/  encoding: utf-8
+  - vendor/ruby/
+
+encoding: utf-8
