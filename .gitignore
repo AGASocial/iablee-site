@@ -5,6 +5,7 @@ _site
 .jekyll-metadata
 vendor
 node_modules
+.worktrees
 .DS_Store
 ._*
 *.swp
