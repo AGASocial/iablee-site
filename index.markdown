@@ -341,7 +341,7 @@ type: website
     <p class="text-xl mb-12 max-w-2xl mx-auto">Contacta con nosotros para comenzar o resolver cualquier duda.</p>
     
     <div class="max-w-md mx-auto bg-white rounded-xl shadow-lg p-8">
-      <form action="#" method="POST" class="space-y-6">
+      <form action="#" method="POST" class="space-y-6" data-contact-form data-from-event="index">
         <div class="text-left">
           <label for="name" class="block text-sm font-medium text-gray-700">Nombre</label>
           <input type="text" name="name" id="name" required 
@@ -365,11 +365,14 @@ type: website
                   class="w-full flex justify-center py-3 px-4 border border-transparent rounded-md shadow-sm text-sm font-medium text-white bg-blue-600 hover:bg-blue-700 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-blue-500 transition duration-150">
             Enviar Mensaje
           </button>
+          <p class="mt-3 text-sm text-green-600 hidden" data-form-status></p>
         </div>
       </form>
     </div>
   </div>
 </div>
+
+<script src="/assets/js/contact-form.js"></script>
 
 <style>
 .animate-fade-in-up {

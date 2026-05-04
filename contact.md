@@ -11,7 +11,7 @@ permalink: /contact/
     <div>
       <p class="text-lg text-gray-600 mb-6">¿Tienes preguntas o comentarios? Estamos aquí para ayudarte. Complete el formulario y te responderemos lo antes posible.</p>
       
-      <form action="#" method="POST" class="space-y-6">
+      <form action="#" method="POST" class="space-y-6" data-contact-form data-from-event="contact">
         <div>
           <label for="name" class="block text-sm font-medium text-gray-700 mb-1">Nombre completo</label>
           <input type="text" name="name" id="name" required 
@@ -47,6 +47,7 @@ permalink: /contact/
                   class="inline-flex justify-center py-3 px-6 border border-transparent shadow-sm text-base font-medium rounded-md text-white bg-blue-600 hover:bg-blue-700 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-blue-500">
             Enviar mensaje
           </button>
+          <p class="mt-3 text-sm text-green-600 hidden" data-form-status></p>
         </div>
       </form>
     </div>
@@ -122,3 +123,5 @@ permalink: /contact/
     </div>
   </div>
 </div>
+
+<script src="/assets/js/contact-form.js"></script>

@@ -1,6 +1,8 @@
 const assert = require("assert");
 const { buildLeadPayload } = require("../assets/js/contact-form");
 
+// Expected in browser: on submit, disable button, post payload, show status.
+
 const payload = buildLeadPayload({
   name: "Ana Perez",
   email: "ana@example.com",
