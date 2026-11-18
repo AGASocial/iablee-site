@@ -128,7 +128,7 @@ type: website
   </div>
   <div class="grid md:grid-cols-3 gap-8 max-w-6xl mx-auto text-center">
     <!-- Plan Gratuito -->
-    <div class="bg-white rounded-xl shadow-lg p-8 border-t-4 border-blue-400 flex flex-col max-w-screen-md mx-auto">
+    <!-- <div class="bg-white rounded-xl shadow-lg p-8 border-t-4 border-blue-400 flex flex-col max-w-screen-md mx-auto">
       <h3 class="text-2xl font-bold mb-2 text-center">Plan Gratuito</h3>
       <div class="text-gray-600 mb-4 text-center">Conoce nuestro producto registrando tu primera experiencia en IABLEE. Creemos una relación de confianza y de lealtad juntos. Cifrado bancario completo de todos los datos</div>
       <div class="text-4xl font-bold mb-6 text-center">$0<span class="text-lg text-gray-500 font-normal">/mes</span></div>
@@ -155,7 +155,7 @@ type: website
         </li>
         
       </ul>
-    </div>
+    </div> -->
 
     <div class="bg-white rounded-xl shadow-lg p-8 border-t-4 border-purple-400 flex flex-col">
       <h3 class="text-2xl font-bold mb-2">Premium Mensual</h3>
