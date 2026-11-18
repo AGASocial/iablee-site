@@ -87,7 +87,7 @@ permalink: /faq/
     <div class="space-y-4">
       <div class="bg-white p-6 rounded-lg shadow-md">
         <h3 class="text-xl font-semibold text-blue-600 mb-2">¿Cuánto cuesta el servicio?</h3>
-        <p>Ofrecemos diferentes planes para adaptarnos a diversas necesidades. Nuestro plan básico comienza en COB $2.990 al mes. Consulta nuestra página de precios para más detalles.</p>
+        <p>Ofrecemos diferentes planes para adaptarnos a diversas necesidades. El Plan Gratuito está disponible sin costo, y Premium Mensual comienza en $9.900 al mes (o $99.000 al año). Consulta nuestra página de precios para más detalles.</p>
       </div>
 
       <div class="bg-white p-6 rounded-lg shadow-md">
