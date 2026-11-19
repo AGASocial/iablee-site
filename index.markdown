@@ -160,7 +160,7 @@ type: website
     <div class="bg-white rounded-xl shadow-lg p-8 border-t-4 border-purple-400 flex flex-col">
       <h3 class="text-2xl font-bold mb-2">Premium Mensual</h3>
       <div class="text-gray-600 mb-4">Plan ideal para todos nuestros usuarios, aquí tienes todas las características esenciales del producto necesarias a un precio increíblemente económico para no afectar tu presupuesto mensual en absolutamente nada. Cifrado bancario completo de todos los datos</div>
-      <div class="text-4xl font-bold mb-6">$9.900<span class="text-lg text-gray-500 font-normal">/mes</span></div>
+      <div class="text-4xl font-bold mb-6">$4.900<span class="text-lg text-gray-500 font-normal">/mes</span></div>
       <ul class="space-y-3 mb-8 flex-grow text-left">
         <li class="flex items-start">
           <svg class="w-5 h-5 text-green-500 mr-2 mt-0.5" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"></path></svg>
@@ -217,7 +217,7 @@ type: website
     <div class="bg-white rounded-xl shadow-lg p-8 border-t-4 border-blue-400 flex flex-col">
       <h3 class="text-2xl font-bold mb-2">Premium Anual</h3>
       <div class="text-gray-600 mb-4">Al pagar la anualidad, como usuario IABLEE recibe beneficios adicionales. Para nuestros usuarios con el plan anual, tendremos actualizaciones a futuro sin costo adicional.</div>
-      <div class="text-4xl font-bold mb-6">$99.000<span class="text-lg text-gray-500 font-normal">/año</span></div>
+      <div class="text-4xl font-bold mb-6">$49.000<span class="text-lg text-gray-500 font-normal">/año</span></div>
       <ul class="space-y-3 mb-8 flex-grow text-left">
         <li class="flex items-start">
           <svg class="w-5 h-5 text-green-500 mr-2 mt-0.5" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"></path></svg>
